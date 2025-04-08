@@ -36,4 +36,9 @@ class UserPage extends Component
     {
         $user->delete();
     }
+
+    public function updatingSearch()
+    {
+        $this->resetPage();
+    }
 }
